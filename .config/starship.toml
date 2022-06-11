@@ -1,0 +1,16 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = true
+command_timeout = 500
+
+[character]
+error_symbol = "[❯](bold red)"
+format = "$symbol "
+success_symbol = "[❯](bold green)"
+
+[git_branch]
+symbol = "🌱 "
+
+[time]
+disabled = false
+format = '\[ $time \]]($style) '

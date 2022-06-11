@@ -1,0 +1,31 @@
+[color]
+	ui = auto
+[alias]
+	co = checkout
+[user]
+	name = yana-gi
+	email = yanagisawa.hika@gmail.com
+	username = yana-gi
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	excludesfile = /Users/yana/.gitignore_global
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+[alias]
+      b = branch
+      c = checkout
+	  s = switch
+      a = add
+      aa = add -A
+      cm = commit -m
+      cp = cherry-pick
+      l = log --graph
+
+[ghq]
+	root = ~/src
