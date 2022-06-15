@@ -11,6 +11,10 @@ eval "$(rbenv init - zsh)"
 eval "$(starship init zsh)"
 eval "$(anyenv init -)"
 
+alias ls lsd
+alias l ls
+alias ll "ls -la"
+
 alias g='git'
 alias be='bundle exec'
 alias grass='emoji-grass yana-gi'
